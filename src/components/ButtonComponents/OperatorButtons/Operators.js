@@ -1,7 +1,7 @@
 import React from "react";
-
+import "./OperatorButton.js";
 //import any components needed
-
+import {numbers} from "./../../../data.js";
 //Import your array data to from the provided data file
 
 const Operators = () => {
@@ -14,3 +14,5 @@ const Operators = () => {
     </div>
   );
 };
+
+export default Operators;
